@@ -1,18 +1,56 @@
-<!DOCTYPE html> <!--Etiqueta Raiz-->
-<html lang="en"> 
-<head> <!--info sobre la pag-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Mi web</title> <!--Titulo de la pag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body> <!--Parte visible de la Pag-->
-    <h1>Hola mundo</h1>
-    <h2>hola</h2>
-    <h3>hola</h3>
-    <h4>hola</h4>
-    <h5>Hola</h5>
-    <h6>hola</h6>
-    <p> Estamos aprendiendo Html</p>
+<body>
+
+    <header>
+        <h1>!Hola, Soy Jose!</h1>
+        <nav>
+            <a href="#sobremi">Sobre mi </a>
+            <a href="#contacto">Contacto</a>
+            <a href=""></a>
+         <!--  <a href="http://Google.com" target="_blank"></a>  -->
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="sobremi">
+            <h2>Sobre mi</h2>
+            <p>Me gusta programar, y me gusta enseñar</p>
+        </section>
+
+        <article>
+            <h2>Mi Hooby</h2>
+            <p>uno de mis pasatiempos favoritos es jugar futbol.</p>
+        </article>
+
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <form>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="correo">Correo</label><br>
+                <input type="text" name="correo" id="correo"><br><br>
+
+                <label for="mensaje">Mensaje: </label><br>
+            
+                <textarea name="mensaje" id="mensaje" rows="4" cols="30"></textarea><br><br>
+                <button type="submit">enviar</button>
+                
+
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;2025 Jose Maturana</p>
+    </footer>
     
 </body>
 </html>
